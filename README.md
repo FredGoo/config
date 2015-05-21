@@ -1,5 +1,3 @@
 # config #
-#### include ####
-
 * vim
 * git
