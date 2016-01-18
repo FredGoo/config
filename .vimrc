@@ -9,8 +9,12 @@ set expandtab " Make tabs into spaces (set by tabstop)
 set smarttab " Smarter tab levels
 set autoindent
 set cindent
+
 set cinoptions=:s,ps,ts,cs
 set cinwords=if,else,while,do,for,switch,case
+
+syntax enable
+syntax on
 
 filetype off                  " required
 
@@ -41,6 +45,11 @@ Plugin 'gmarik/Vundle.vim'
 
 " All of your Plugins must be added before the following line
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" 快捷键
+nmap <C-n> :NERDTree <CR>
