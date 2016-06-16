@@ -9,6 +9,8 @@ set expandtab " Make tabs into spaces (set by tabstop)
 set smarttab " Smarter tab levels
 set autoindent
 set cindent
+set ruler " 显示状态栏
+set laststatus=2 " 显示两行状态栏
 
 set cinoptions=:s,ps,ts,cs
 set cinwords=if,else,while,do,for,switch,case
