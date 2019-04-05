@@ -2,6 +2,8 @@
 	email = fredera92@gmail.com
 	name = Fred Goo
 [core]
-        editor = vim
+    editor = vim
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[credential]
+	helper = store
