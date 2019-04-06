@@ -1,5 +1,3 @@
-colorscheme evening
-
 set nocompatible              " be iMproved, required
 
 set tabstop=2 " Set the default tabstop
