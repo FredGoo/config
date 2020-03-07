@@ -16,42 +16,4 @@
             <url>http://repository.jboss.org/nexus/content/groups/public</url>
         </mirror>
     </mirrors>
-
-    <profiles>
-        <profile>
-            <id>nexus</id>
-
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-
-            <repositories>
-                <repository>
-                    <id>geex-maven</id>
-                    <name>geex maven</name>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                    <url>http://maven.geexfinance.com:8081/maven/repository/maven-public/</url>
-                </repository>
-            </repositories>
-
-            <pluginRepositories>
-                <pluginRepository>
-                    <id>geex-maven-plugin</id>
-                    <name>geex maven plugin</name>
-                    <url>http://maven.geexfinance.com:8081/maven/repository/maven-public/</url>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </pluginRepository>
-            </pluginRepositories>
-        </profile>
-    </profiles>
 </settings>
